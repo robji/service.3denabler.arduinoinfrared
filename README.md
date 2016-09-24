@@ -4,7 +4,7 @@ This addon for Kodi interfaces with a dedicated Arduino to issue infrared comman
 
 # Target Audience
 
-This is not a simple plug-and-play addon. If you intend to use this addon, you must have at least a basic understanding of Arduino and python code. You also need an Arduino, the corresponding USB cable, a 10uF or larger capacitor (if using volume command receiver), one or more infrared LEDs (can be salvaged from old remotes), and wire to dedicate to this project. This addon is presented as-is without any guarantees. It works on my Windows 10 machine with Kodi 16.1 on the Confluence skin and my Arduino Uno. I beleive it will work universally but it has not been tested on other configurations.
+This is not a simple plug-and-play addon. If you intend to use this addon, you must have at least a basic understanding of Arduino and python code. You also need an Arduino, the corresponding USB cable, a 10uF or larger capacitor (if using volume command receiver), one or more infrared LEDs (can be salvaged from old remotes), and wire to dedicate to this project. This addon is presented as-is without any guarantees. It works on my Windows 10 machine with Kodi 16.1 on the Confluence skin and my Arduino Uno. I believe it will work universally but it has not been tested on other configurations.
 
 # Hardware Setup for Arduino Uno
 
@@ -25,7 +25,7 @@ IRsend2 is the sketch used for Kodi interactivity. IRsendSearch is used to scan 
 
 1. Get the pyserial addon from SuperRepo: https://superrepo.org/kodi/addon/script.module.pyserial/ by either direct download or installing the repo
 2. Download this repo as a zip file and extract the service.3denabler.arduinoinfrared folder out. Zip that up and install from within Kodi or place it directly in your addons folder and restart Kodi.
-3. Set your serial port and baud rate in the addon settings. If you have prevented the arduino resetting, check that box as well.
+3. Set your serial port and baud rate in the addon settings. If you have prevented the Arduino resetting, check that box as well.
 4. Set your 3d option positions and sequences in the addon settings. Position is the spot in the menu that the 3d option is located, sequences are keypresses to achieve each action. The 'STR' keypresses signal the Arduino to accept a string before processing anything to avoid filling the serial buffer if there's a ridiculously long sequence. Uncheck 'TV remembers previous position' if your tv starts at the beginning of the menu each time you press 3d.
 
 You should be in business at this point.
