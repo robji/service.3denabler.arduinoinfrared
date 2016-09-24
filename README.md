@@ -37,6 +37,7 @@ You should be in business at this point.
 Check the mouse.xml file to see my setup for volume up and down. The commandreceiver.py file is what is activated by those commands, so edit that file as needed to send other commands. I might add a section to the settings for this eventually, but if you've gotten this far I think you'll be able to get that too.
 
 # Special Credits:
+
 1) Pavel Kuzub for the 3D Enabler Samsung addon base structure: https://github.com/PavelKuzub/service.3denabler.samsungtv
 2) Ken Shirriff for the Arduino IRremote library: https://github.com/z3t0/Arduino-IRremote
 3) The LIRC project for their infrared remote code repository: http://lirc.sourceforge.net/remotes/
