@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+  <string id="30000">General</string>
+  <string id="30001">Enable switch to 3D</string>
+  <string id="30002">Pause playback during switch</string>
+  <string id="30003">Screen to black during switch</string>
+  <string id="30004">Show Notifications</string>
+  <string id="30010">Advanced</string>
+  <string id="30011">Current 3DTV mode</string>
+  <string id="30012">Detection mode</string>
+  <string id="30120">Events and Polling</string>
+  <string id="30121">Events only</string>
+  <string id="30122">Polling only</string>
+  <string id="30013">Poll frequency (seconds)</string>
+  <string id="30014">Skip poll if inactive more than (seconds)</string>
+  <string id="30015">Skip poll during screensaver</string>
+  <string id="30160">All</string>
+  <string id="30020">Key Press</string>
+  <string id="30021">Over/Under Position</string>
+  <string id="30022">Side by Side Position</string>
+  <string id="30023">Key sequence to begin</string>
+  <string id="30024">Key sequence to end</string>
+  <string id="30025">Key sequence left</string>
+  <string id="30026">Key sequence right</string>
+  <string id="30027">Position of 3D modes with leftmost starting at 1</string>
+  <string id="30028">See service.py for accepted keys and to add your own</string>
+  <string id="30029">TV remembers previous position</string>
+  <string id="30030">Serial</string>
+  <string id="30031">COM port (from Arduino IDE)</string>
+  <string id="30032">Baud rate (from Arduino IDE)</string>
+  <string id="30034">Arduino reset is prevented</string>
+  <string id="30033">COM port of form "COM3" on windows, "/dev/tty.usbserial1" on Mac/Linux</string>
+  <string id="30501">Access Denied. Check Permissions</string>
+  <string id="30503">Unknown</string>
+</strings>
+

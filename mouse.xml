@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap>
+  <global>
+    <mouse>
+      <leftclick>leftclick</leftclick>
+      <middleclick>middleclick</middleclick>
+      <rightclick>rightclick</rightclick>
+      <doubleclick>doubleclick</doubleclick>
+      <wheeldown>wheeldown</wheeldown>
+      <wheelup>wheelup</wheelup>
+      <mousedrag>mousedrag</mousedrag>
+      <mousemove>mousemove</mousemove>
+    </mouse>
+  </global>
+  <SlideShow>
+    <mouse>
+      <leftclick>Pause</leftclick>
+      <rightclick>PreviousMenu</rightclick>
+      <wheelup>PreviousPicture</wheelup>
+      <wheeldown>NextPicture</wheeldown>
+    </mouse>
+  </SlideShow>
+  <FullscreenVideo>
+    <mouse>
+      <mousedrag>mousemove</mousedrag>
+      <mousemove>noop</mousemove>
+      <wheelup>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_UP)</wheelup>
+      <wheeldown>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_DN)</wheeldown>
+      <leftclick>Pause</leftclick>
+	  <middleclick>StepBack</middleclick>
+	  <doubleclick>NextSubtitle</doubleclick>
+    </mouse>
+  </FullscreenVideo>
+  <!-- Video On-Screen-Display Controls -->
+  <VideoOSD>
+    <mouse>
+      <wheelup>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_UP)</wheelup>
+      <wheeldown>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_DN)</wheeldown>
+    </mouse>
+  </VideoOSD>
+  <!-- Music Visualization Controls -->
+  <Visualisation>
+    <mouse>
+      <wheelup>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_UP)</wheelup>
+      <wheeldown>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_DN)</wheeldown>
+    </mouse>
+  </Visualisation>
+<!-- Music On-Screen-Display Controls -->
+  <MusicOSD>
+    <mouse>
+      <wheelup>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_UP)</wheelup>
+      <wheeldown>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_DN)</wheeldown>
+    </mouse>
+  </MusicOSD>
+
+<!-- Home On-Screen-Display Controls (Master List for movies/music/etc) -->
+  <Home>
+    <mouse>
+      <wheelup>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_UP)</wheelup>
+      <wheeldown>RunPlugin(plugin://service.3denabler.arduinoinfrared/?VOL_DN)</wheeldown>
+    </mouse>
+  </Home>
+  <videolibrary>
+	<mouse>
+	  <rightclick>ParentDir</rightclick>
+	  <middleclick>rightclick</middleclick>
+    </mouse>
+  </videolibrary>
+</keymap>
