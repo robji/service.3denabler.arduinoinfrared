@@ -302,10 +302,11 @@ def serialBegin():
             return ser1
     notify()
 
-def serialEnd():
+def serialEnd(powerOff = True):
     if settings.enableSerial:
+        global ser
         if not ser.isOpen(): ser.open()
-        ser.write('0')
+        if powerOff: ser.write('0')
         xbmc.sleep(50)
         ser.close()
 
@@ -315,8 +316,9 @@ class MyMonitor(xbmc.Monitor):
     
     def onSettingsChanged( self ):
         xbmc.log('3DIRSettings changed', xbmc.LOGDEBUG)
-        serialEnd()
+        serialEnd(False)
         settings.load()
+        global ser
         ser = serialBegin()
     
     def onScreensaverDeactivated(self):
