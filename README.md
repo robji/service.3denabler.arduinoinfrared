@@ -38,9 +38,9 @@ Check the mouse.xml file to see my setup for volume up and down. The commandrece
 
 # Special Credits:
 
-1) Pavel Kuzub for the 3D Enabler Samsung addon base structure: https://github.com/PavelKuzub/service.3denabler.samsungtv
-2) Ken Shirriff for the Arduino IRremote library: https://github.com/z3t0/Arduino-IRremote
-3) The LIRC project for their infrared remote code repository: http://lirc.sourceforge.net/remotes/
-4) The pyserial project and the Kodi bundling of it: https://superrepo.org/kodi/addon/script.module.pyserial/
+1. Pavel Kuzub for the 3D Enabler Samsung addon base structure: https://github.com/PavelKuzub/service.3denabler.samsungtv
+2. Ken Shirriff for the Arduino IRremote library: https://github.com/z3t0/Arduino-IRremote
+3. The LIRC project for their infrared remote code repository: http://lirc.sourceforge.net/remotes/
+4. The pyserial project and the Kodi bundling of it: https://superrepo.org/kodi/addon/script.module.pyserial/
 
 That should be it. Feel free to use this code in compliance with the GPL.
